@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Useful Links</title>
+  <style>
+    body {
+      background-color: #D9B18F;
+      font-family: "Cormorant Garamond", serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #A15F35;
+      color: #FFFFFF;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      color: black;
+      font-family: "Alegreya SC", serif;
+      font-weight: 500;
+      font-size: 1.8rem;
+    }
+
+    .links {
+      background-color: #C86E3B;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 80%;
+      max-width: 600px;
+      margin: 30px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .link-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: 1.2em;
+      transition: transform 0.2s ease;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .link-item img {
+      height: 32px;
+      width: auto;
+    }
+
+    .link-item:hover {
+      color: #B78C6A;
+      transform: scale(1.02);
+    }
+
+    main {
+      background-color: #D9B18F;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 30px;
+    }
+
+    main h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #A15F35;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: #FFFFFF;
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 500;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+
+      header img {
+        margin: 0 0 10px 0;
+        height: 50px;
+      }
+
+      .link-item {
+        font-size: 1rem;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .link-item img {
+        height: 28px;
+      }
+
+      main h2 {
+        font-size: 1.2rem;
+      }
+
+      .links {
+        width: 90%;
+        padding: 20px;
+      }
+    }
+  </style>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <a href="https://www.milistones.org/"><img src="logo-milis.png" alt="Ministères Living Stones" /></a>
+    <h1>Séminaire Milis Europe</h1>
+  </header>
+
+  <main>
+    <h2>Bienvenus à la deuxième édition du séminaire Milis Europe</h2>
+    <p>Ici vous trouverez quelques liens utiles</p>
+
+    <div class="links">
+      <a href="https://www.amazon.fr/dp/B06XKSB6D7?ref=..." class="link-item">
+        <img src="book-1296045_640.png" alt="Livre Lève-toi et vis!" />
+        <span>Lève-toi et vis !</span>
+      </a>
+      <a href="https://m.facebook.com/p/MILIS-Europe-61559674734192/" class="link-item">
+        <img src="Logo-Facebook.png" alt="Page Facebook Milis Europe" />
+        <span>Suivez nous sur Facebook</span>
+      </a>
+      <a href="https://bit.ly/2VKXukE" class="link-item">
+        <img src="hand-147204_640.png" alt="Faire un don" />
+        <span>Faire un don</span>
+      </a>
+      <a href="https://paypal.me/milisfranceasso?country.x=FR&locale.x=fr_FR" class="link-item">
+        <img src="paypal.png" alt="Don via PayPal" />
+        <span>Paypal</span>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p><a href="https://www.milistones.org/mentions-legales/" style="color:#FFF; text-decoration: none;">Mentions légales</a></p>
+  </footer>
+</body>
+</html>
